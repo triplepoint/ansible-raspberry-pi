@@ -1,0 +1,4 @@
+---
+- name: Ensure the raspberry pi boot config file is in place
+  template: src=config.txt.j2 dest=/boot/config.txt user=root group=root mode=0755
+  notify: restart rpi
