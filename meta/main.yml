@@ -1,0 +1,12 @@
+---
+galaxy_info:
+  author: Jonathan Hanson
+  description: A set of configurations for a Raspberry Pi Raspbian device
+  license: MIT
+  min_ansible_version: 2.4
+  platforms:
+    - name: Raspbian
+      versions: []
+  galaxy_tags:
+    - raspberrypi
+dependencies: []
