@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: raspberry_pi
   author: Jonathan Hanson
   description: A set of configurations for a Raspberry Pi Raspbian device
   license: MIT
