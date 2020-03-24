@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include ansible-raspberry-pi"
+      include_role:
+        name: "ansible-raspberry-pi"
