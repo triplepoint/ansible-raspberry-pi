@@ -1,4 +1,4 @@
-# Intro [![Build Status](https://travis-ci.org/triplepoint/ansible-raspberry-pi.svg?branch=master)](https://travis-ci.org/triplepoint/ansible-raspberry-pi)
+# Intro [![Build Status](https://www.travis-ci.com/triplepoint/ansible-raspberry-pi.svg?branch=master)](https://www.travis-ci.com/triplepoint/ansible-raspberry-pi)
 Set up fresh install of Raspbian on a Raspberry Pi machine.  This is more or less a catch-all role for various config file tweaks.
 
 ## Requirements
