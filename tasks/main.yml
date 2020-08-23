@@ -7,4 +7,4 @@
     insertafter: 'dtparam='
     create: yes
   with_dict: "{{ raspberry_pi_boot_config }}"
-  # notify: restart rpi
+  notify: restart rpi
