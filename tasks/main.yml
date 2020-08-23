@@ -1,9 +1,10 @@
 ---
-- name: Ensure the raspberry pi boot config file is in place
-  template:
-    src: config.txt.j2
-    dest: /boot/config.txt
-    owner: root
-    group: root
-    mode: 0755
-  notify: restart rpi
+- name: Ensure the Raspberry Pi boot config file parameters are set
+  lineinfile:
+    path: /boot/config.txt
+    line: "{{ item.key }}={{ item.value }}"
+    regexp: '^[#\s]*{{ item.key }}='
+    insertafter: 'dtparam='
+    create: yes
+  with_dict: "{{ raspberry_pi_boot_config }}"
+  # notify: restart rpi

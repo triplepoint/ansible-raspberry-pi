@@ -1,0 +1,6 @@
+---
+# Keys and values here will get written to the /boot/config.txt file
+# on the Raspberry PI.
+# See: https://www.raspberrypi.org/documentation/configuration/config-txt/
+raspberry_pi_boot_config: {}
+# disable_camera_led: "1"
