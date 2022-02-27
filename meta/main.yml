@@ -9,6 +9,7 @@ galaxy_info:
   platforms:
     - name: Raspbian
       versions: []
+  github_branch: main
   galaxy_tags:
     - raspberrypi
 dependencies: []
