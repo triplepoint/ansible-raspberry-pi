@@ -5,6 +5,7 @@
     line: "{{ item.key }}={{ item.value }}"
     regexp: '^[#\s]*{{ item.key }}='
     insertafter: 'dtparam='
-    create: yes
+    create: true
+    mode: 0644
   with_dict: "{{ raspberry_pi_boot_config }}"
   notify: restart rpi
